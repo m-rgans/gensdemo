@@ -1,0 +1,63 @@
+TILESET1START:
+TILENO_EMPTY equ 0
+  dc.l $00000000
+  dc.l $00000000
+  dc.l $00000000
+  dc.l $00000000
+  dc.l $00000000
+  dc.l $00000000
+  dc.l $00000000
+  dc.l $00000000
+
+TILENO_BALL_TL equ 1
+	dc.l $00000777
+	dc.l $00077777
+	dc.l $00777777
+	dc.l $07777777
+	dc.l $07777777
+	dc.l $77777777
+	dc.l $77777777
+	dc.l $77777777
+
+TILENO_BALL_BL equ 2
+	dc.l $77777777
+	dc.l $77777777
+	dc.l $77777777
+	dc.l $07777777
+	dc.l $07777777
+	dc.l $00777777
+	dc.l $00077777
+	dc.l $00000777
+
+TILENO_BALL_TR equ 3
+	dc.l $77700000
+	dc.l $77777000
+	dc.l $77777700
+	dc.l $77777770
+	dc.l $77777770
+	dc.l $77777777
+	dc.l $77777777
+	dc.l $77777777
+
+TILENO_BALL_BR equ 4
+	dc.l $77777777
+	dc.l $77777777
+	dc.l $77777777
+	dc.l $77777770
+	dc.l $77777770
+	dc.l $77777700
+	dc.l $77777000
+	dc.l $77700000
+
+TILENO_BOX_CORNER equ 5
+  dc.l $66666666
+	dc.l $66666666
+	dc.l $66600000
+	dc.l $66060000
+	dc.l $66006000
+	dc.l $66000600
+	dc.l $66000060
+	dc.l $66000006
+TILESET1END:
+
+TILESET1Q equ 6
